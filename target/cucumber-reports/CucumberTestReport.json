@@ -1,0 +1,478 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-05T21:09:34.572Z",
+        "line": 4,
+        "name": "Validate puppy adoption functionality",
+        "description": "",
+        "id": "puppy-adoption-page-test;validate-puppy-adoption-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1023999300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.StepsDefinition.testEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6979985600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is able to open the page \"http://puppies.herokuapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://puppies.herokuapp.com/\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Runner.StepsDefinition.navigate(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468520500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Select puppy 0 by clicking View Details button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 13
+                }
+              ],
+              "location": "Runner.StepsDefinition.selectPuppy(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 580012200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click on Adopt Me! button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptionPuppy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 408001400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Complete the Adoption button",
+            "match": {
+              "location": "Runner.StepsDefinition.clickAdoption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659002800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user fill adoption form",
+            "match": {
+              "location": "Runner.StepsDefinition.fillAdptnForm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 556000700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user clicks Place Order button",
+            "match": {
+              "location": "Runner.StepsDefinition.makeOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75997900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate the message of success is displayed",
+            "match": {
+              "location": "Runner.StepsDefinition.msgValidation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestMain"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-05T21:09:45.383Z",
+        "line": 14,
+        "name": "Validate two puppy adoption functionality",
+        "description": "",
+        "id": "puppy-adoption-page-test;validate-two-puppy-adoption-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1178000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.StepsDefinition.testEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5838244500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user is able to open the page \"http://puppies.herokuapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://puppies.herokuapp.com/\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Runner.StepsDefinition.navigate(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581003400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select puppy 0 by clicking View Details button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 13
+                }
+              ],
+              "location": "Runner.StepsDefinition.selectPuppy(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 654519500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user click on Adopt Me! button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptionPuppy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 446522600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on add another puppy button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptAnotherPuppy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434001300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select puppy 1 by clicking View Details button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 13
+                }
+              ],
+              "location": "Runner.StepsDefinition.selectPuppy(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 636993700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user click on Adopt Me! button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptionPuppy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 414000300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Complete the Adoption button",
+            "match": {
+              "location": "Runner.StepsDefinition.clickAdoption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 732002500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user fill adoption form",
+            "match": {
+              "location": "Runner.StepsDefinition.fillAdptnForm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 572016300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user clicks Place Order button",
+            "match": {
+              "location": "Runner.StepsDefinition.makeOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67981000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate the message of success is displayed",
+            "match": {
+              "location": "Runner.StepsDefinition.msgValidation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestMain"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-05T21:09:56.964Z",
+        "line": 28,
+        "name": "Validate two puppy adoption functionality",
+        "description": "",
+        "id": "puppy-adoption-page-test;validate-two-puppy-adoption-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1070066100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.StepsDefinition.testEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4337066400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user is able to open the page \"http://puppies.herokuapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://puppies.herokuapp.com/\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Runner.StepsDefinition.navigate(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 415011000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select puppy 0 by clicking View Details button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 13
+                }
+              ],
+              "location": "Runner.StepsDefinition.selectPuppy(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 744999900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user click on Adopt Me! button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptionPuppy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 399015400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks on add another puppy button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptAnotherPuppy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420999600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Select puppy 1 by clicking View Details button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 13
+                }
+              ],
+              "location": "Runner.StepsDefinition.selectPuppy(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 570999500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The user click on Adopt Me! button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptionPuppy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 425004200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks on add another puppy button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptAnotherPuppy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401011800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select puppy 2 by clicking View Details button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 13
+                }
+              ],
+              "location": "Runner.StepsDefinition.selectPuppy(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 574003700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user click on Adopt Me! button",
+            "match": {
+              "location": "Runner.StepsDefinition.adoptionPuppy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42001100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Validate that all 3 puppies have been added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "Runner.StepsDefinition.validateCartCount(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestMain"
+          }
+        ]
+      }
+    ],
+    "name": "Puppy adoption Page Test",
+    "description": "",
+    "id": "puppy-adoption-page-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Test.feature",
+    "tags": []
+  }
+]
